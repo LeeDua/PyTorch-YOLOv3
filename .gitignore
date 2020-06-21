@@ -1,12 +1,21 @@
 
 .DS_Store
 build
+.idea
 .git
 *.egg-info
 dist
 output
 data/coco
 backup
-weights/*.weights
+weights
 __pycache__
 checkpoints
+VOCdevkit
+*.zip
+output*
+*logs
+test_imgs
+*checkpoints
+checkpoints03
+

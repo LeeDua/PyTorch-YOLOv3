@@ -277,6 +277,10 @@ class Darknet(nn.Module):
         cutoff = None
         if "darknet53.conv.74" in weights_path:
             cutoff = 75
+        if ".pre" in weights_path:
+            cutoff = 15
+        if ".8p" in weights_path:
+            cutoff = 9
 
         ptr = 0
         for i, (module_def, module) in enumerate(zip(self.module_defs, self.module_list)):

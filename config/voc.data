@@ -1,0 +1,7 @@
+classes= 7
+train  = train.txt
+valid  = 2007_test.txt
+names = voc.names
+backup = mytinybackup
+
+
