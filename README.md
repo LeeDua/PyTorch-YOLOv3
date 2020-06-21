@@ -1,6 +1,9 @@
-7 cls training
+7 cls training on VOC dataset
+
 yolov3-tiny : config/ti.cfg  final_weights/500.pth
+
 my-tiny: config/mti.cfg  final_weights/825.pth
+
 data_config: config/voc.data
 
 ----------------
